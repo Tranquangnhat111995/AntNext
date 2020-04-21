@@ -1,0 +1,594 @@
+@import '~antd/dist/antd.css';
+.borderBottom {
+  padding: 8px 11px;
+  border-bottom: 1px solid #00CCFF;
+}
+.checkboxIner {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+}
+.checkboxInerAfter {
+  border: 2px solid #0099FF;
+  border-top: 0;
+  border-left: 0;
+  display: flex;
+  margin-left: 2px;
+}
+.bam {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+.header {
+  height: 60px;
+  background-color: #0099FF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+}
+.header .anticon {
+  display: none;
+}
+.header img {
+  width: 150px;
+}
+.header .logo {
+  margin-left: 32px;
+  font-size: 21px;
+}
+@media (max-width: 1024px) {
+  .header .logo {
+    font-size: 19px;
+  }
+}
+.header .menu {
+  display: flex;
+  margin-right: 6em;
+}
+.header .menu .ant-menu {
+  border-right: none;
+  background-color: #0099FF;
+  color: #fff;
+  margin-right: 12px;
+}
+@media (max-width: 1024px) {
+  .header .menu .ant-menu {
+    margin: 0;
+  }
+}
+.header .menu .ant-menu .ant-menu-submenu-title span {
+  font-size: 17px;
+}
+@media (max-width: 1024px) {
+  .header .menu .ant-menu .ant-menu-submenu-title span {
+    font-size: 14px;
+  }
+}
+.header .menu .ant-menu .ant-menu-submenu-title .ant-menu-submenu-arrow {
+  display: none;
+}
+.header .menu .ant-menu .ant-menu-submenu-title:hover span {
+  color: blue;
+}
+.header .img {
+  margin-right: 4em;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .header .img {
+    margin-right: 2em;
+  }
+}
+.header .img span {
+  font-size: 19px;
+  padding-right: 0.5em;
+}
+@media (max-width: 1024px) {
+  .header .img span {
+    font-size: 18px;
+  }
+}
+.header .img img {
+  border: 1px solid blue;
+  width: 41px;
+  height: 41px;
+  border-radius: 50%;
+}
+.content {
+  display: flex;
+  height: 800px;
+}
+.content .sidebar {
+  width: 30%;
+}
+.content .sidebar h1 {
+  margin: 0.6em 0 1em 1em;
+  font-size: 29px;
+  color: #666666;
+}
+@media (max-width: 1024px) {
+  .content .sidebar h1 {
+    font-size: 20px;
+    margin: 0.6em 0 1em 1.4em;
+  }
+}
+.content .sidebar .barns {
+  margin-left: 2em;
+}
+.content .sidebar .barns p {
+  color: #0099FF;
+  font-size: 13px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.content .sidebar .barns .ant-select {
+  border-radius: 9px;
+  width: 325px;
+}
+@media (max-width: 1024px) {
+  .content .sidebar .barns .ant-select {
+    width: 255px;
+  }
+}
+.content .sidebar .barns .ant-select .ant-select-selector {
+  border: 1px solid #00CCFF;
+  border-radius: 9px;
+  background-color: #E0FFFF;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.content .sidebar .barns .ant-select .ant-select-selector .ant-select-selection-placeholder {
+  opacity: 1;
+  color: #0099FF;
+}
+.content .sidebar .barns .ant-select .ant-select-arrow {
+  color: #0099FF;
+}
+.content .sidebar .checkbox {
+  height: 127px;
+  width: 325px;
+  border: 1px solid #00CCFF;
+  border-radius: 9px;
+  margin-left: 2em;
+  margin-top: 10px;
+}
+@media (max-width: 1024px) {
+  .content .sidebar .checkbox {
+    width: 255px;
+  }
+}
+.content .sidebar .checkbox .allBams {
+  padding: 8px 11px;
+  border-bottom: 1px solid #00CCFF;
+}
+.content .sidebar .checkbox .allBams .ant-checkbox-inner {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+}
+.content .sidebar .checkbox .allBams span {
+  color: #0099FF;
+}
+.content .sidebar .checkbox .allBams .ant-checkbox-inner::after {
+  border: 2px solid #0099FF;
+  border-top: 0;
+  border-left: 0;
+  display: flex;
+  margin-left: 2px;
+}
+.content .sidebar .checkbox .bam1 {
+  background-color: #E0FFFF;
+  padding: 8px 11px;
+  border-bottom: 1px solid #00CCFF;
+}
+.content .sidebar .checkbox .bam1 .ant-checkbox-inner {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+}
+.content .sidebar .checkbox .bam1 span {
+  color: #0099FF;
+}
+.content .sidebar .checkbox .bam1 .ant-checkbox-inner::after {
+  border: 2px solid #0099FF;
+  border-top: 0;
+  border-left: 0;
+  display: flex;
+  margin-left: 2px;
+}
+.content .sidebar .checkbox .bam2 {
+  padding: 8px 11px;
+}
+.content .sidebar .checkbox .bam2 .ant-checkbox-inner {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+}
+.content .sidebar .checkbox .bam2 span {
+  color: #0099FF;
+}
+.content .sidebar .checkbox .bam2 .ant-checkbox-inner::after {
+  border: 2px solid #0099FF;
+  border-top: 0;
+  border-left: 0;
+  display: flex;
+  margin-left: 2px;
+}
+.content .contentArea {
+  width: 70%;
+}
+.content .contentArea .pitLevels {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.content .contentArea .pitLevels h1 {
+  margin-left: 37px;
+  color: #666666;
+}
+@media (max-width: 1024px) {
+  .content .contentArea .pitLevels h1 {
+    font-size: 20px;
+  }
+}
+.content .contentArea .pitLevels .bottomStatus {
+  display: flex;
+  margin-right: 4.7em;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .content .contentArea .pitLevels .bottomStatus {
+    margin-right: 3em;
+  }
+}
+.content .contentArea .pitLevels .bottomStatus p {
+  margin-top: 16px;
+  margin-right: 25px;
+  color: #0099FF;
+  font-weight: bold;
+}
+.content .contentArea .pitLevels .bottomStatus .ant-btn {
+  border-radius: 10px;
+  margin-right: 5px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  height: 35px;
+}
+@media (max-width: 1024px) {
+  .content .contentArea .pitLevels .bottomStatus .ant-btn {
+    width: 53px;
+  }
+}
+.content .contentArea .pitLevels .bottomStatus .ant-btn-primary {
+  background-color: red;
+  border: 1px solid red;
+}
+.content .contentArea .pitLevels .bottomStatus .ant-btn-dangerous {
+  margin-right: 10px;
+  background-color: #FFD700;
+  border: 1px solid #FFD700;
+}
+.content .contentArea .pitLevels .bottomStatus .ant-btn-omitted {
+  background-color: #006400;
+  border: 1px solid #006400;
+  color: #fff;
+}
+.content .contentArea .table {
+  margin-right: 52px;
+}
+@media (max-width: 1024px) {
+  .content .contentArea .table {
+    margin-right: 27px;
+  }
+}
+.content .contentArea .table h1 {
+  margin-left: 37px;
+  margin-top: 42px;
+}
+.content .contentArea .table .ant-table-cell:first-child {
+  width: 7px ;
+}
+.content .contentArea .table .ant-table-thead .ant-table-cell {
+  padding: 11px 10px;
+  background-color: #E0FFFF;
+  border-top: 1px solid #00CCFF;
+  border-bottom: 1px solid #00CCFF;
+  color: #0099FF;
+  font-weight: bold;
+}
+.content .contentArea .table .ant-table-tbody .ant-table-cell {
+  padding: 1px 10px;
+  background-color: #E0FFFF;
+  border-bottom: 1px solid #00CCFF;
+  color: #0099FF;
+}
+.content .contentArea .table .ant-table-tbody .ant-table-cell .bam1 {
+  background-color: #006400;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+.content .contentArea .table .ant-table-tbody .ant-table-cell .bam2 {
+  background-color: #FFD700;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+.content .contentArea .table .ant-table-tbody .ant-table-cell .bam3 {
+  background-color: red;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-top: 12px;
+}
+.content .contentArea .table .ant-pagination {
+  display: none;
+}
+.content .contentArea .tableException {
+  margin-right: 52px;
+}
+@media (max-width: 1024px) {
+  .content .contentArea .tableException {
+    margin-right: 27px;
+  }
+}
+.content .contentArea .tableException h1 {
+  margin-left: 37px;
+  margin-top: 42px;
+  color: #666666;
+}
+@media (max-width: 1024px) {
+  .content .contentArea .tableException h1 {
+    font-size: 20px;
+  }
+}
+.content .contentArea .tableException .ant-table-cell:first-child {
+  width: 36px ;
+}
+.content .contentArea .tableException .ant-table-thead .ant-table-cell {
+  padding: 11px 10px;
+  background-color: #E0FFFF;
+  border-top: 1px solid #00CCFF;
+  border-bottom: 1px solid #00CCFF;
+  color: #0099FF;
+  font-weight: bold;
+}
+.content .contentArea .tableException .ant-table-tbody .ant-table-cell {
+  padding: 9px 10px;
+  background-color: #E0FFFF;
+  border-bottom: 1px solid #00CCFF;
+  color: #0099FF;
+}
+.content .contentArea .tableException .ant-table-tbody .ant-table-cell .ant-tag {
+  padding: 2px 7px;
+  border: 2px solid #1890ff;
+  color: #1890ff;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.content .contentArea .tableException .ant-pagination {
+  display: none;
+}
+@media (max-width: 1200px) {
+  .header .menu {
+    margin-right: 0;
+  }
+  .content .contentArea .pitLevels h1 {
+    margin-left: 96px;
+  }
+  .content .contentArea .table {
+    margin-left: 4em;
+  }
+  .content .contentArea .tableException {
+    margin-left: 4em;
+  }
+  .content .contentArea .tableException .ant-table-thead .ant-table-cell:first-child {
+    padding: 9px 18px;
+  }
+}
+@media (max-width: 800px) {
+  .header .anticon {
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 13px;
+  }
+  .header .logo {
+    position: absolute;
+    left: 2em;
+  }
+  .header .menu {
+    display: none;
+  }
+  .header .menu1 {
+    position: absolute;
+    top: 61px;
+    z-index: 999;
+  }
+  .header .menu1 .ant-menu {
+    border-bottom: 1px solid #fff;
+    background-color: #0099FF;
+    color: #fff;
+  }
+  .header .menu1 .ant-menu .ant-menu-submenu-arrow {
+    display: none;
+  }
+  .header .img {
+    margin-right: 4em;
+  }
+  .content {
+    display: inline-block;
+  }
+  .content .sidebar {
+    width: 100%;
+  }
+  .content .sidebar h1 {
+    margin-left: 3.5em;
+  }
+  .content .sidebar .barns {
+    margin-left: 5em;
+  }
+  .content .sidebar .barns .ant-select {
+    width: 330px;
+  }
+  .content .sidebar .checkbox {
+    margin-left: 5em;
+    width: 330px;
+  }
+  .content .contentArea {
+    width: 100%;
+  }
+  .content .contentArea .pitLevels .bottomStatus {
+    margin-right: 5.5em;
+  }
+  .content .contentArea .table {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+  .content .contentArea .tableException {
+    margin-left: 5em;
+    margin-right: 5em;
+  }
+}
+@media (max-width: 600px) {
+  .header .img {
+    margin-right: 2em;
+  }
+  .content .contentArea .pitLevels h1 {
+    margin-left: 63px;
+  }
+  .content .contentArea .pitLevels .bottomStatus {
+    margin-right: 1.5em;
+  }
+  .content .contentArea .table {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .content .contentArea .tableException {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
+@media (max-width: 480px) {
+  .header .anticon {
+    font-size: 30px;
+  }
+  .header .logo {
+    font-size: 17px;
+  }
+  .header .img span {
+    font-size: 15px;
+  }
+  .header .img img {
+    width: 38px;
+    height: 38px;
+  }
+  .content .sidebar h1 {
+    margin-left: 14px;
+  }
+  .content .sidebar .barns {
+    margin-left: 1em;
+  }
+  .content .sidebar .checkbox {
+    margin-left: 1em;
+  }
+  .content .contentArea {
+    margin-top: 4em;
+  }
+  .content .contentArea .pitLevels {
+    display: inline-block;
+  }
+  .content .contentArea .pitLevels h1 {
+    margin-left: 15px;
+  }
+  .content .contentArea .pitLevels .bottomStatus {
+    position: absolute;
+    left: 1em;
+    top: 27em;
+  }
+  .content .contentArea .table {
+    margin-top: 0;
+  }
+  .content .contentArea .tableException h1 {
+    margin-left: 1px;
+  }
+  .content .contentArea .tableException .ant-table-tbody .ant-table-cell .ant-tag {
+    padding: 2px 3px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 360px) {
+  .header .anticon {
+    font-size: 26px;
+  }
+  .content {
+    width: 100%;
+  }
+  .content .sidebar h1 {
+    font-size: 18px;
+  }
+  .content .sidebar .barns .ant-select {
+    width: 250px;
+  }
+  .content .sidebar .checkbox {
+    width: 250px;
+  }
+  .content .contentArea .pitLevels .bottomStatus p {
+    position: absolute;
+    bottom: 25px;
+  }
+  .content .contentArea .tableException .ant-table-thead .ant-table-cell:first-child {
+    padding: 9px 0px;
+  }
+  .content .contentArea .tableException .ant-table-thead .ant-table-cell {
+    padding: 9px 0;
+  }
+  .content .contentArea .tableException .ant-table-tbody .ant-table-cell .ant-tag {
+    font-size: 8px;
+    padding: 2px 0;
+  }
+}
+@media (max-width: 320px) {
+  .header .anticon {
+    margin-left: 4px;
+  }
+  .header .logo {
+    left: 5px;
+  }
+  .header .img {
+    margin-right: 4px;
+  }
+  .content .sidebar h1 {
+    margin-left: 5px;
+  }
+  .content .sidebar .barns {
+    margin-left: 5px;
+  }
+  .content .sidebar .checkbox {
+    margin-left: 5px;
+  }
+  .content .contentArea .pitLevels h1 {
+    margin-left: 5px;
+  }
+  .content .contentArea .pitLevels .bottomStatus {
+    left: 5px;
+  }
+  .content .contentArea .table {
+    margin-left: 0px;
+    margin-right: 0;
+  }
+  .content .contentArea .tableException {
+    margin-left: 0px;
+    margin-right: 0;
+  }
+  .content .contentArea .tableException h1 {
+    margin-left: 5px;
+  }
+}
